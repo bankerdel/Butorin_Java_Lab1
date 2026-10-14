@@ -78,7 +78,7 @@ public class Main {
                     case 5: {
                         ComplexMatrix a = inputMatrix(scanner, "A");
                         ComplexNum result = a.det();
-                        System.out.println("Определитель матрицы А:" + result.display());
+                        System.out.println("Определитель матрицы А: " + result.display());
                         break;
                     }
                     default:
